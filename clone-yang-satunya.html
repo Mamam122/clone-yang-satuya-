@@ -1,0 +1,115 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Clone yg Satunya</title>
+	<meta name="viewport" content="width-divice-width,initial-scale-1.0">
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<nav>
+		<div class ="menu-mobile">
+			<a herf="#">Menu</a>
+		</div>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Product</a></li>
+			<li><a href="#">Galery</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">My Inventory</a></li>
+		</ul>
+	</nav>
+	<section id="box-profile">
+		<div class="img-profile">
+			<div class="photo" style="background-image:url(qq.png	);"></div>
+		</div>
+
+		<div class="deskripsi">  
+			<h1>Airlangga</h1>
+			<p>Font End Designer</p>
+			<a href="#" class="button bg-green">Contact</a>
+			<a href="#" class="button border-blue">Resume</a>
+		</div>
+		<div class="information">
+			<div class="data">
+				<p class="field">Availablility</p>
+				<p class="text-gray">Full Time</p>
+			</div> 
+		
+			<div class="data">
+				<p class="field">Age</p>
+				<p class="text-gray">17</p>
+			</div >
+		
+			<div class="data">
+				<p class="field">Location</p>
+				<p class="text-gray">Semarang,Indonesia</p>
+			</div>
+
+			<div class="data">
+				<p class="field">Years Experience</p>
+				<p class="text-gray">0</p>
+			</div>
+			<div class="data">
+				<p class="field">Email</p>
+				<p class="text-gray">apaajaygpentinghalal@gmail.com</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="input-form">
+		<form method="#" action="#">
+			<div class="forn">
+				<label>Name</label>
+				<input type="text" name="name" placeholder="Masukkan Nama">
+			</div>
+			<div class="forn">
+				<form action="proses.php" method="get">
+					<label>Religion</label>
+					<select name='agama'>
+					<option value='pilih'>Pilih...</option>
+					<option value='islam'>Islam</option>
+					<option value='kristen'>Kristen</option>
+					<option value='katholik'>Katholik</option>
+					<option value='hindu'>Hindu</option>
+					<option value='budha'>Budha</option>
+					<option value='satanisme'>Satanisme</option>
+				</select>
+				</form>
+			</div>
+			<div class="forn">
+				<label>Role</label>
+				<input type="text" name="role" placeholder="Masukkan Role">
+			</div>
+			<div class="forn">
+				<label>Availablility</label>
+				<input type="text" name="availablility" >
+			</div>
+			<div class="forn">
+				<label>Age</label>
+				<input type="number" name="age" placeholder="Masukkan Umur">
+			</div>
+			<div class="forn">
+				<label>Location</label>
+				<form method="post" action="">
+				<textarea name="alamat" rows="5" cols="165"></textarea>
+				<br/><br/>
+			</div>
+			<div class="forn">
+				<label>Years Experience</label>
+				<input type="number" name="years" >
+			</div>
+			<div class="forn">
+				<label>Email</label>
+				<input type="email" name="email" placeholder="Masukkan Email">
+			</div>
+			<div class="forn">
+				<label>Foto</label>
+				<input type="file" name="Foto" placeholder="Masukkan Foto">
+			</div>
+			<div class="forn">
+				<input type="submit" name="submit" value="SUBMIT" class="bg-blue">
+				
+			</div>
+		</form>
+	</section>
+</body>
